@@ -4,10 +4,10 @@
 #
 
 #
-# Compiler: arm-none-linux-gnueabihf-gcc (GNU Toolchain for the A-profile Architecture 10.2-2020.11 (arm-10.16)) 10.2.1 20201103
+# Compiler: arm-linux-gnueabihf-gcc (GNU Toolchain for the A-profile Architecture 8.3-2019.03 (arm-rel-8.36)) 8.3.0
 #
 CONFIG_CC_IS_GCC=y
-CONFIG_GCC_VERSION=100201
+CONFIG_GCC_VERSION=80300
 CONFIG_CLANG_VERSION=0
 CONFIG_CC_CAN_LINK=y
 CONFIG_CC_HAS_ASM_GOTO=y
@@ -2437,7 +2437,7 @@ CONFIG_DRM_FBDEV_OVERALLOC=100
 # CONFIG_DRM_DP_CEC is not set
 CONFIG_DRM_GEM_CMA_HELPER=y
 CONFIG_DRM_KMS_CMA_HELPER=y
-CONFIG_DRM_SCHED=m
+CONFIG_DRM_SCHED=y
 
 #
 # I2C encoder or helper chips
@@ -2547,7 +2547,7 @@ CONFIG_DRM_DW_MIPI_DSI=y
 # end of Display Interface Bridges
 
 # CONFIG_DRM_STI is not set
-CONFIG_DRM_ETNAVIV=m
+CONFIG_DRM_ETNAVIV=y
 CONFIG_DRM_ETNAVIV_THERMAL=y
 # CONFIG_DRM_ARCPGU is not set
 # CONFIG_DRM_MXSFB is not set
