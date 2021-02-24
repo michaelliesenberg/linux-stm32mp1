@@ -16,7 +16,7 @@
 	chosen {
 		stdout-path = "serial0:115200n8";
 	};
-        gpio-keys {
+/*        gpio-keys {
                 compatible = "gpio-keys";
                 #size-cells = <0>;
 
@@ -34,6 +34,7 @@
                         wakeup-source;
                 };
         };
+*/
 };
 
 &cec {
