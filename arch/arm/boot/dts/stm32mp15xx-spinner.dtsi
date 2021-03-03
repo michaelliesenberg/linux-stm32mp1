@@ -16,25 +16,6 @@
 	chosen {
 		stdout-path = "serial0:115200n8";
 	};
-/*        gpio-keys {
-                compatible = "gpio-keys";
-                #size-cells = <0>;
-
-                sbc{
-                        label = "GPIO_F";
-                        linux,code = <KEY_F23>;
-                        gpios = <&gpiod 11 GPIO_ACTIVE_LOW>;
-                        wakeup-source;
-                };
-
-                ext{
-                        label = "GPIO_L";
-                        linux,code = <KEY_F24>;
-                        gpios = <&gpiog 8 GPIO_ACTIVE_LOW>;
-                        wakeup-source;
-                };
-        };
-*/
 };
 
 &cec {
