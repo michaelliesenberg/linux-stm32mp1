@@ -1,6 +1,7 @@
 #sudo ARCH=arm CROSS_COMPILE=/home/debian/work/gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf/bin/arm-none-linux-gnueabihf- make savedefconfig
 #cp defconfig arch/arm/configs/spinner
 sudo ARCH=arm CROSS_COMPILE=/home/debian/work/gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf/bin/arm-none-linux-gnueabihf- make clean
+#sudo ARCH=arm CROSS_COMPILE=/opt/gcc-arm-8.3-2019.03-x86_64-arm-linux-gnueabihf/bin/arm-linux-gnueabihf- make stm32mp1_dhsom_defconfig
 sudo ARCH=arm CROSS_COMPILE=/home/debian/work/gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf/bin/arm-none-linux-gnueabihf- make arch/arm/configs/spinner
 sudo ARCH=arm CROSS_COMPILE=/home/debian/work/gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf/bin/arm-none-linux-gnueabihf- make dtbs
 sudo ARCH=arm CROSS_COMPILE=/home/debian/work/gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf/bin/arm-none-linux-gnueabihf- make zImage
